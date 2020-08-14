@@ -1,0 +1,102 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/90094735_1370646776468906_4205110952922166232_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=goMn541jbTcAX-4NLRC&oh=36a43c5d03fcbaf7ed735ca36ed181a8&oe=5F34AC9F);
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color:#424242 ;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),o 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #c5c5c5;
+}
+
+#output{
+    text-align: right;
+    font-weight: bold;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard{
+    height: 400px;
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number,.empty{
+    background-color: #979797;
+}
+
+.number,.operator{
+    cursor: pointer;
+}
+
+.number:hover{
+    background-color: rgb(0, 0, 133);
+}
+
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #167772;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #c77c1a;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #c02e14;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #1075a3;
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #099910;
+}
+
+button:nth-child(1){
+    font-size: 20px;
+    background-color: #fbff00;
+}
+
+
